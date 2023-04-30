@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <div id="particles-js" class="bg-dark d-flex justify-content-center align-items-center vh-100 ">
+    <div id="particles-js" class="bg-dark d-flex justify-content-center align-items-center ">
       <div class="conatiner position-absolute ">
         <div class="row m-auto text-center  ">
           <div class="d-flex align-items-center text-center ">
-            <i class="fa-solid fa-hand-pointer"></i>
+            <div class="task d-flex  align-items-center">
+              <span class="verticalText togglex " onclick="togglex()">Hello 
+                <i class="fa-solid fa-hand-pointer"></i>
+              </span>
+              <span class="verticalText  word position-absolute ">Projects</span>
 
-            <span class="verticalText togglex" onclick="togglex()">Hello 
-          </span> <p>
+
+            </div>
+          <p>
             My Name Is Ahmed Hamdy
           <br>I'm A Front-end Developer
           </p></div>
@@ -43,8 +48,77 @@
         </div>
       </div>
 
-
     </div>
+
+
+
+    <div class="skills ">
+      <section id="about" class="info">
+        <div class="container my-5  overflow-hidden">
+          <div class="row">
+            <div class="my-info col-xl-12 col-xs-12 px-5 my-5">
+              <div class=" col-12 px-5 about-me px-sm-5 my-5">
+                <h2 class="">About Me</h2>
+                <p class="my-4 text-white">
+                  “I’m a developer who can help you build websites for small and medium-sized businesses. Whether you’re trying to win work, list your services, or even create a whole online store
+                  I’m experienced in HTML5 and CSS 3, JavaScript, and Angular
+                  I’ll fully project manage your brief from start to finish"
+                </p>
+              </div>
+              <div class="skill my-4  col-12">
+                <h2>Skills</h2>
+                <div
+                  class="skill-name d-flex justify-content-between my-2 align-items-center"
+                >
+                <ul class="text-center list-unstyled mt-4 mx-auto d-flex flex-wrap gap-3">
+                  <li>
+                    <button class="glow-on-hover">HTML5</button>                  
+                  </li>
+                  <li>
+                    <button class="glow-on-hover">CSS3</button>
+                  </li>
+
+                  <li>
+                    <button class="glow-on-hover">SASS</button>
+                  </li>
+
+                  <li>
+                    <button class="glow-on-hover">Bootstrap</button>
+                  </li>
+
+                  <li>
+                    <button class="glow-on-hover">JavaScript</button>
+                  </li>
+
+                  <li>
+                    <button class="glow-on-hover">jQuery</button>
+                  </li>
+
+                  
+                  <li>
+                    <button class="glow-on-hover">TypeScript</button>
+                  </li>
+
+                  <li>
+                    <button class="glow-on-hover">AngularJS</button>
+                  </li>
+
+                  
+                  <li>
+                    <button class="glow-on-hover">Particles.js</button>
+                  </li>
+
+
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  
     <script src="JS/jquery-3.2.1.min.js"></script>
 <script src="JS/particles.min.js"></script>
     <script src="JS/bootstrap.bundle.min.js"></script>
