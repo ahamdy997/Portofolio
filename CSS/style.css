@@ -1,0 +1,27 @@
+body{
+    color: #FFFF00 !important;
+    font-size: 2rem;
+}
+
+.verticalText{
+    writing-mode: vertical-lr;
+    font-size: 4rem;
+}
+span{
+    cursor: pointer;
+}
+.verticalText i{
+    font-size: 1.3rem;
+}
+p{
+    transition: all 1s;
+}
+a{
+    color: #FFFF00;
+}
+.social{
+    left: 40%;
+}
+.social i{
+    padding-left: 7px;
+}
