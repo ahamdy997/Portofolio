@@ -8,7 +8,7 @@ body{
 .verticalText{
     writing-mode: vertical-lr;
     font-size: 4rem;
-    transition: all .6s;
+    transition: all 1s;
 }
 span{
     cursor: pointer;
@@ -17,7 +17,7 @@ span{
     font-size: 1.3rem;
 }
 p{
-    transition: all 1s;
+    transition: all 1.5s;
 }
 a{
     color: #FFFF00;
@@ -99,3 +99,16 @@ a{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
+/* section animation */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
