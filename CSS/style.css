@@ -4,7 +4,9 @@ body{
     background-color: rgb(33,37,41);
     scroll-behavior: smooth;
 }
-
+.r{
+    transform: translateY(calc(50% - 150px));
+}
 .verticalText{
     writing-mode: vertical-lr;
     font-size: 4rem;
@@ -18,9 +20,6 @@ span{
 }
 p{
     transition: all 1.5s;
-}
-.w{
-    top: 58%;
 }
 a{
     color: #FFFF00;
