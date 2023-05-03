@@ -342,9 +342,9 @@ particlesJS.load('particles-js', 'JS/particles.json', function() {
 let fix =window.innerWidth
 if (fix<=768) {
   $('div.t').removeAttr('id');
-  $(".m").removeClass("position-absolute");
-  $(".social").addClass(" my-3");
-  $(".m").addClass("vh-100 d-flex justify-content-center align-items-center");
+  // $(".m").removeClass("position-absolute");
+  // $(".social").addClass(" my-3");
+  $(".m").addClass("vh-100 ");
 
 }
 
