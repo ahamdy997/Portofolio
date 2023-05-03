@@ -324,12 +324,14 @@ if (width<768){
   });
 }
 
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'JS/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
 
+  $(document).ready(function() {
+    $(".skitter-large").skitter();
+  });
   
   $(".togglex").click(function(){
       $(".social").toggle(
