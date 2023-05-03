@@ -339,7 +339,14 @@ particlesJS.load('particles-js', 'JS/particles.json', function() {
     function(){$("social").css({"opacity": "0"});})
   });
 
+let fix =window.innerWidth
+if (fix<=768) {
+  $('div.t').removeAttr('id');
+  $(".m").removeClass("position-absolute");
+  $(".social").addClass("top-50 my-5");
+  $(".m").addClass("vh-100 d-flex justify-content-center align-items-center");
 
+}
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveals.length; i++) {
