@@ -19,6 +19,9 @@ span{
 p{
     transition: all 1.5s;
 }
+.w{
+    top: 58%;
+}
 a{
     color: #FFFF00;
     cursor: pointer !important;
