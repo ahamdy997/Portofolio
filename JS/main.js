@@ -340,7 +340,7 @@ particlesJS.load('particles-js', 'JS/particles.json', function() {
   });
 
 let fix =window.innerWidth
-if (fix<=768) {
+if (fix<=1080) {
   $('div.t').removeAttr('id');
   // $(".m").removeClass("position-absolute");
   // $(".social").addClass(" my-3");
